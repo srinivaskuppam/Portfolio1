@@ -104,12 +104,7 @@ sr.reveal(".project-img", { interval: 200 });
 
 
   window.addEventListener("load" , typewriter);
-  function printresume(pageUrl) {
-    var newWindow = window.open(pageUrl, '_blank');
-    
-    
-    newWindow.onload = function() {
-        newWindow.print();
-    };
+  function printresume() {
+    window.open("https://srinivaskuppam.github.io/Resume/resume.html", "_blank");
 }
 
